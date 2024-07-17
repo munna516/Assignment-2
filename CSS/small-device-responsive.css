@@ -1,0 +1,41 @@
+@media screen and (max-width:576px) {
+    #navbar {
+        margin: 40px 20px;
+        /* justify-content: space-evenly; */
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        color: var(--secondary-color);
+    }
+
+    .banner {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    .banner-container {
+        width: 380px;
+    }
+
+    .image-up {
+        top: 60px;
+        left: 190px;
+    }
+
+    .image-bottom {
+        top: -230px;
+        left: 10px;
+    }
+
+}
