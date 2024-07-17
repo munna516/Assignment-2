@@ -1,7 +1,11 @@
 @media screen and (max-width:576px) {
     #navbar {
         margin: 40px 20px;
-        /* justify-content: space-evenly; */
+    }
+
+    #habit,
+    .banner {
+        padding: 15px;
     }
 
     .nav-items {
@@ -17,7 +21,7 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        padding: 20px;
+
     }
 
     .banner-title {
@@ -38,4 +42,17 @@
         left: 10px;
     }
 
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .habit-image-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .habit-img {
+        width: 240px;
+    }
 }

@@ -13,7 +13,13 @@ body {
     font-family: "Inter", sans-serif;
     max-width: 1440px;
     margin: 0 auto;
+    border: 2px solid red;
+    background-color: rgb(0, 0, 0);
 
+}
+
+section {
+    margin-top: 100px;
 }
 
 /* Shared Style */
@@ -51,10 +57,30 @@ body {
     margin-left: 14px;
 }
 
-header {
-    border: 2px solid red;
-    background-color: rgb(0, 0, 0);
-    /* height: 715px; */
+.section-content {
+    max-width: 670px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+.section-title {
+    color: var(--secondary-color);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.section-description {
+    color: var(--tertiary-color);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#habit {
+    max-width: 1044px;
+    margin: 0 auto;
 }
 
 /* Nav Styles */
@@ -192,9 +218,40 @@ header {
     left: -100px;
 }
 
-
 .play-button {
     background-color: var(--bg-color);
     padding: 10px 15px;
     border-radius: 50%;
+}
+
+/* Habit Styles */
+
+.habit-image-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.habit-img {
+    width: 25%;
+    text-align: center;
+}
+
+.habit-img .image-title {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+.habit-img img {
+    border-radius: 50%;
+}
+
+.habit-img .image-description {
+    color: var(--tertiary-color);
+    font-size: 1rem;
+    font-weight: 400;
+
 }
