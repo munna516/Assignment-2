@@ -399,14 +399,16 @@ body {
 }
 
 /* Team section */
-#team {
+#team,
+#service {
     max-width: 1060px;
     margin: 0px auto;
 }
 
-.team-title-description {
+.team-title-description,
+.service-title-description {
     width: 672px;
-    margin: 100px auto;
+    margin: 80px auto;
     text-align: center;
 }
 
@@ -446,4 +448,41 @@ body {
     position: absolute;
     bottom: 20px;
     left: 20px;
+}
+
+/* Service stles */
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.service-card {
+    width: 100%;
+    background: rgb(34, 34, 34);
+    padding: 20px;
+    border-radius: 1rem;
+
+}
+
+.service-card .service-img {
+    width: 100%;
+    height: 60%;
+    border-radius: 1rem;
+}
+
+.service-titel {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.service-description {
+    color: var(--tertiary-color);
+    font: 1rem;
+    text-align: center;
+    margin-bottom: 40px;
 }

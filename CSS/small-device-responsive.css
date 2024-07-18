@@ -5,7 +5,8 @@
 
     #habit,
     .banner,
-    #run-extra {
+    #run-extra,
+    #team {
         margin: 20px;
     }
 
@@ -59,11 +60,9 @@
     }
 
     .run-container-1,
-    .run-container-2 {
-        width: 100%;
-    }
-
-    .run-container button {
+    .run-container-2,
+    .run-container button,
+    .team-content img {
         width: 100%;
     }
 
@@ -89,16 +88,14 @@
         padding: 20px;
     }
 
-    #team {
-        margin: 20px;
-    }
-
-    .team-title-description {
+    .team-title-description,
+    .service-title-description {
         width: 310px;
         margin-bottom: 50px;
     }
 
-    .team-content-container {
+    .team-content-container,
+    .service-container {
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
         justify-content: center;
@@ -110,7 +107,4 @@
         width: 350px;
     }
 
-    .team-content img {
-        width: 100%;
-    }
 }
