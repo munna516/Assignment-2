@@ -70,4 +70,22 @@
     #run-extra {
         margin-top: 70px;
     }
+
+    .bmi-calculation-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        margin-top: 0px;
+    }
+
+    .bmi-title-description {
+        width: 353px;
+        margin-bottom: 10px;
+    }
+
+    .bmi-calculation,
+    .bmi-chart {
+        width: 100%;
+        padding: 20px;
+    }
 }

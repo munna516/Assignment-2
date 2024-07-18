@@ -33,6 +33,7 @@ body {
     padding: 12px 20px;
     font-weight: 600;
     color: var(--secondary-color);
+    cursor: pointer;
 }
 
 .btn-secondary {
@@ -42,6 +43,7 @@ body {
     font-weight: 600;
     color: var(--secondary-color);
     border: none;
+    cursor: pointer;
 }
 
 .btn-tertiary {
@@ -52,6 +54,7 @@ body {
     background-color: black;
     color: white;
     margin-left: 14px;
+    cursor: pointer;
 }
 
 .section-content {
@@ -277,4 +280,108 @@ body {
 .run-container-2 img {
     width: 100%;
     border-radius: 1rem;
+}
+
+/* BMI Style */
+.bmi-title-description {
+    width: 670px;
+    margin: 100px auto;
+}
+
+.bmi-calculation-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: rgb(34, 34, 34);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-top: 52px;
+    padding-bottom: 50px;
+}
+
+.bmi-chart table {
+    border-collapse: collapse;
+}
+
+.bmi-calculation {
+    width: 577px;
+}
+
+.bmi-chart th {
+    color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    padding: 15px 110px 15px 18px;
+}
+
+.bmi-chart td {
+    color: var(--tertiary-color);
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 15px 28px 15px 18px;
+}
+
+.bmi-chart td,
+.bmi-chart th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bmi-chart caption,
+.bmi-calculation-title {
+    color: rgb(255, 255, 255);
+    font-size: 1.7rem;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 52px;
+}
+
+.bmi-calculation-title {
+    margin-bottom: 14px;
+}
+
+.bmi-calculation-description {
+    color: var(--tertiary-color);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-bottom: 34px;
+
+}
+
+#height,
+#Weight,
+#age,
+#sex,
+#activity {
+    width: 45%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 12px 40px 12px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+#sex,
+#activity {
+    cursor: pointer;
+}
+
+#activity {
+    width: 93%;
+    margin-bottom: 34px;
+}
+
+#sex option,
+#activity option {
+    background-color: black;
+    color: var(--tertiary-color);
+
 }
