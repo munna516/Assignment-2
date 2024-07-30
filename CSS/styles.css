@@ -486,3 +486,65 @@ body {
     text-align: center;
     margin-bottom: 40px;
 }
+
+/* Footer Design */
+footer {
+    max-width: 1440px;
+    margin-top: 100px;
+    padding: 70px 190px 10px 190px;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-content {
+    display: flex;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.footer-content-1 {
+    width: 443px;
+}
+
+.footer-content-1 h1 {
+    color: var(--primary-color);
+    font-size: 4.6rem;
+    font-weight: 800px;
+}
+
+.footer-content-1 p {
+    color: var(--tertiary-color);
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+
+.footer-content-2 h4,
+.footer-content-3 h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.footer-content-2 p,
+.footer-content-3 p {
+    font-size: 1rem;
+    color: var(--tertiary-color);
+    margin-top: 30px;
+}
+
+.footer-content-2 {
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+footer .line {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 80px;
+}
+
+.footer-caption {
+    text-align: center;
+    margin-top: 36px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px
+}
