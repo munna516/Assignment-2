@@ -53,7 +53,8 @@
     }
 
     .habit-img {
-        width: 240px;
+        width: 70%;
+        text-align: center;
     }
 
     .run-container-1,
@@ -115,6 +116,7 @@
     .footer-content-1 {
         width: 323px;
     }
+
     .footer-content-2 {
         margin-left: 0;
         margin-right: 0;

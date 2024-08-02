@@ -1,0 +1,63 @@
+@media screen and (min-width:576.1px) and (max-width:992px) {
+    main {
+        padding: 30px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    #navbar {
+        margin: 40px 35px;
+    }
+
+    .banner {
+        flex-direction: column;
+        margin-top: 75px;
+    }
+
+    .habit-image-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+
+    }
+    .habit-img {
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    .run-container {
+        gap: 20px;
+    }
+
+    .service-container,
+    .team-content-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bmi-calculation-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer {
+        padding: 30px;
+    }
+
+    .footer-content-2 {
+        margin-left: 10px;
+        margin-right: 15px;
+    }
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 70px;
+    }
+
+    .footer-content-1 {
+        grid-column: span 2;
+    }
+}
