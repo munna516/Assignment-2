@@ -18,7 +18,7 @@
             <h2 class="nav-title">Fitness</h2>
             <div class="nav-items">
                 <ul>
-                    <li><a href="#navbar"><span class="btn-primary">Home</span></a></li>
+                    <li><a href="#navbar"><span class="btn">Home</span></a></li>
                     <li><a href="#service">Service</a></li>
                     <li><a href="#footer">Contact</a></li>
                     <li><a href="#team">About</a></li>
@@ -98,7 +98,7 @@
                         Mile Easily</h2>
                     <p class="section-description">We believe fitness should be accessible to everyone, everywhere,
                         regardless of income or access to a gym. With hundreds of professional workouts.</p>
-                    <button class="btn-secondary">Join Now</button>
+                    <button class="btn-primary">Join Now</button>
                 </div>
                 <div class="run-container-2">
                     <img src="images/run.jpg" alt="">
@@ -200,27 +200,39 @@
                     <h2 class="bmi-calculation-title">Calculate Your BMI</h2>
                     <p class="bmi-calculation-description">We believe fitness should be accessible to everyone,
                         everywhere, regardless of income or access to a gym. </p>
-                    <form>
-                        <input type="text" name="" id="height" placeholder="Height/cm">
-                        <input type="text" name="" id="Weight" placeholder="Weight/Kg">
-                        <input type="text" name="" id="age" placeholder="Age">
-                        <select id="sex" name="sex">
-                            <option class="sex" value="" disabled selected hidden>Sex</option>
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                            <option value="other">Other</option>
-                        </select>
-                        <select id="activity" name="activity">
-                            <option class="select-activity" value="" disabled selected hidden>Select an Activity Factor
-                            </option>
-                            <option value="sedentary">Sedentary</option>
-                            <option value="light">Lightly Active</option>
-                            <option value="moderate">Moderately Active </option>
-                            <option value="active">Active</option>
-                            <option value="very-active">Very Active</option>
-                        </select>
+                    <form class="form-container">
+                        <div class="form-item">
+                            <input type="text" name="" id="height" placeholder="Height/cm">
+                        </div>
+                        <div class="form-item">
+                            <input type="text" name="" id="Weight" placeholder="Weight/Kg">
+                        </div>
+                        <div class="form-item">
+                            <input type="text" name="" id="age" placeholder="Age">
+                        </div>
+                        <div class="form-item custom-select-container">
+                            <select id="sex" class="custom-select" name="sex">
+                                <option disabled selected hidden>Sex</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <i id="first" class="fa-solid first fa-angle-down"></i>
+                        </div>
+                        <div class="form-item custom-select-container">
+                            <select id="activity" class="custom-select" name="activity">
+                                <option disabled selected hidden>Select an Activity Factor
+                                </option>
+                                <option value="sedentary">Sedentary</option>
+                                <option value="light">Lightly Active</option>
+                                <option value="moderate">Moderately Active </option>
+                                <option value="active">Active</option>
+                                <option value="very-active">Very Active</option>
+                            </select>
+                            <i id="second" class="fa-solid second fa-angle-down"></i>
+                        </div>
                     </form>
-                    <button class="btn-secondary"> Calculate </button>
+                    <button class="btn-primary"> Calculate </button>
 
                 </div>
             </div>

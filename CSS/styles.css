@@ -28,7 +28,7 @@ body {
     --bg-color: rgb(230, 83, 60);
 }
 
-.btn-primary {
+.btn {
     background-color: var(--bg-color);
     border-radius: 2.875rem;
     padding: 12px 20px;
@@ -36,7 +36,15 @@ body {
     color: var(--secondary-color);
     cursor: pointer;
 }
-
+.btn-primary {
+    background-color: var(--bg-color);
+    border-radius: 2.875rem;
+    padding: 16px 60px;
+    font-weight: 600;
+    color: var(--secondary-color);
+    border: none;
+    cursor: pointer;
+}
 .btn-secondary {
     background-color: var(--bg-color);
     border-radius: 2.875rem;
@@ -302,7 +310,6 @@ body {
     background: rgb(34, 34, 34);
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 100px;
     padding-top: 52px;
     padding-bottom: 50px;
@@ -362,7 +369,7 @@ body {
 #age,
 #sex,
 #activity {
-    width: 45%;
+    width: 100%;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     border: none;
@@ -370,20 +377,19 @@ body {
     font-size: 1rem;
     font-weight: 400;
     padding: 12px 40px 12px 20px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    height: 48px;
+}
 
+#height,
+#Weight,
+#age {
+    color: white;
 }
 
 #sex,
 #activity {
     cursor: pointer;
-}
-
-#activity {
-    width: 93%;
-    margin-bottom: 34px;
+    outline: none;
 }
 
 #sex option,
@@ -393,8 +399,46 @@ body {
 
 }
 
+.custom-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+
+}
+
+.form-container .form-item:nth-child(5) {
+    grid-column: span 2;
+    margin-bottom: 38px;
+}
+
 .bmi-calculation input::placeholder {
     color: var(--tertiary-color);
+}
+
+.custom-select-container {
+    display: flex;
+    position: relative;
+}
+
+.custom-select-container i {
+    position: absolute;
+    color: var(--tertiary-color);
+}
+
+.custom-select-container #first {
+    right: 14%;
+    top: 35%;
+}
+
+.custom-select-container #second {
+    right: 7%;
+    top: 35%;
 }
 
 /* Team section */
